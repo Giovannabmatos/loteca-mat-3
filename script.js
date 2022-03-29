@@ -20,6 +20,7 @@ function sorteio (){
     alert("É necessário digitar os seis números antes do sorteio")
 }
 }
+
 function getValor(valor, posicao){
     valor = Number(valor)
     if(valor <= 0 || valor > 60){
