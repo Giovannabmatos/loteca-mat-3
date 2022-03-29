@@ -2,6 +2,7 @@ var numSorteio = []
 var numEscolhido = []
 
 function sorteio (){
+    if (numEscolhido.length == 6){
     var cont = 0
     numSorteio = []
 
@@ -15,6 +16,9 @@ function sorteio (){
         } 
     } 
     document.getElementById("sorteados").innerHTML = numSorteio
+}else{
+    alert("É necessário digitar os seis números antes do sorteio")
+}
 }
 function getValor(valor, posicao){
     valor = Number(valor)
